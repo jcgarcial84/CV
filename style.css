@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: rgb(2, 2, 68);
+    font-family: cambria;
+}
+
+header{
+    width: 100vw;
+    background-image: linear-gradient(rgb(4, 4, 85),rgb(106, 106, 240));
+    padding: 5%;
+    text-align: center;
+   border-bottom: 2px solid white;
+   color: azure;
+}
+
+.Descripcion{
+    background-color: white;
+    width: 70%;
+    height: 800px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    color:rgb(2, 2, 49);
+    padding: 2%;
+    padding-top: 5%;
+}
+
+.contacto{
+    background-image: linear-gradient( rgba(118, 118, 238, 0.986), rgb(174, 174, 240));
+    width: 30%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    padding: 2%;
+}
+
+section{
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-left: 5%;
+    font-size:small;
+    list-style:circle;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    
+}
+
+h2{
+    border-bottom: 1px solid white;
+    font-size:xx-large;
+    
+}
+
+.contacto p{
+    font-size: small;
+    padding-left: 20%;
+}
+
+.contacto h3{
+    padding-left: 7%;
+}
+
+.Descripcion p{
+    font-size: small;
+    margin-left: 5%;
+}
+
+h4{
+    font-size: 15px;
+    margin-left: 3%;
+}
+
+.telefono{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.direccion{
+    display: flex;
+    flex-direction: row;
+}
+
+.birth{
+    display: flex;
+    flex-direction: row;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.telefono img{
+    padding-left: 9%;
+    
+}
+
+.email img{
+    padding-left: 9%;
+}
+
+.direccion img{
+    padding-left: 9%;
+}
+
+.birth img{
+    padding-left: 9%;
+}
+
+.redes img{
+    padding-left: 9%;
+}
+
+.encabezado img{
+    height: 200px;
+    width: auto;
+    /*padding-right: 20%;*/
+    border-radius: 50%;
+
+
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nombre{
+    padding-left: 20%;
+}
+
+
+
+
+
